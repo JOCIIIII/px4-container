@@ -254,7 +254,7 @@ RUN \
         ${HOME}/.o/home/user/PX4-Autopilot/ROMFS/px4fmu_common/init.d-posix
 
 RUN \
-    git clone https://github.com/PX4/PX4-Autopilot.git -b v1.14.0-rc1-dev \
+    git clone https://github.com/PX4/PX4-Autopilot.git -b v1.14.0-rc1 \
     && git -C PX4-Autopilot submodule update --init --recursive
 
 RUN \
@@ -318,7 +318,7 @@ CMD [ "/usr/local/bin/entrypoint.sh" ]
 #    --user user \
 #    --privileged \
 #    --name sitl-px4 \
-#    kestr3l/px4:1.14.0-rc-0.0.1-dev zsh
+#    kestr3l/px4:1.14.0-rc1-0.0.1-dev zsh
 
 # ------- RUN COMMAND (WSL2) -------
 # docker run -it --rm \
