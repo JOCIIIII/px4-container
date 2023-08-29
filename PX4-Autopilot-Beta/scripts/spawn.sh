@@ -10,8 +10,8 @@
 
 # model name and model directory in docker contariner
 export MODEL_NAME=pine_tree
-export MODEL_DIREC=home/user/gazebo
-#export MODEL_DIREC=home/user/PX4-Autopilot/Tools/simulation/gz/models
+#export MODEL_DIREC=home/user/gazebo
+export MODEL_DIREC=home/user/PX4-Autopilot/Tools/simulation/gz/models
 
 
 export WORLD_NAME=default

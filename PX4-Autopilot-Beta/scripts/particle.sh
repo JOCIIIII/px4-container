@@ -27,6 +27,6 @@ export MAPSIZE=50
         ''name: "fire" ''allow_renaming: true'
 
 # change size
-    gz topic -t /model/fog_generator/link/fog_link/particle_emitter/emitter/cmd \
+    gz topic -t /model/fire/link/fog_link/particle_emitter/emitter/cmd \
         -m gz.msgs.ParticleEmitter \
         -p 'size: {x: '50', y: '50', z: '50'}'
